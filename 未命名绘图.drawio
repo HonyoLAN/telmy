@@ -1,1 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2022-04-21T03:37:14.305Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="e0I10E9U00qHajJ4o62r" version="17.4.6" type="github"><diagram id="nZsXNzgTfsL5aVxK9Qy-" name="第 1 页">jZJNb8MgDIZ/DcdJTVib7Nquyy47TDm0twkFL1CREFHSJPv1I8PkQ1WlXRA8/sB+bUIPVZ8Z1ogPzUGReMN7Ql9JHG9p6s4RDB48Jy8elEZyj6IZ5PIHEG6QtpLDdeVotVZWNmtY6LqGwq4YM0Z3a7dvrda/NqyEO5AXTN3Tk+RWeJrGyczfQZYi/BztsL+KBWfs5CoY190C0SOhB6O19beqP4AatQu6+Li3B9apMAO1/U/A7ZJlcP48t/ta5WX6dUq2/VPss9yYarFhLNYOQQGj25rDmCQidN8JaSFvWDFaOzdyx4StFJoxHRgL/cM6o6l7tzWgK7BmcC4YMAmGGxPv8N3N+kfBRyy0D34MR15OqWdV3AWFCc95AH+2xRbT4y8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-21T03:40:29.781Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="yqgUB3q41S_d7RjXhQVf" version="17.4.6" type="github">
+  <diagram id="nZsXNzgTfsL5aVxK9Qy-" name="第 1 页">
+    <mxGraphModel dx="307" dy="274" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vjGGeXQXuBnlSg8_W75x-2" value="初始化&lt;br&gt;保存最终结果的容器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="170" y="120" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MScV8rbteiX6YOOFGvK_-1" value="数组排序" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="170" y="190" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MScV8rbteiX6YOOFGvK_-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MScV8rbteiX6YOOFGvK_-2" target="MScV8rbteiX6YOOFGvK_-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MScV8rbteiX6YOOFGvK_-2" value="遍历排序后的数组" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="170" y="260" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MScV8rbteiX6YOOFGvK_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MScV8rbteiX6YOOFGvK_-3" target="MScV8rbteiX6YOOFGvK_-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="390" />
+              <mxPoint x="360" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MScV8rbteiX6YOOFGvK_-3" value="当前元素是否&lt;br&gt;与上一个元素相同" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="340" width="150" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
