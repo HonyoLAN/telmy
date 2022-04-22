@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-22T13:35:39.081Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="X7yspJy6jZ8F4TKEgZCi" version="17.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-22T13:41:01.237Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="XASss32WrUb7F4k9laA2" version="17.4.6" type="github" pages="2">
   <diagram id="q-ANHGBc3iWFSovor3je" name="TransportServer">
-    <mxGraphModel dx="1535" dy="1290" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="614" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -157,7 +157,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="DVjT0W08BS4ew8Y2O3mc" name="HttpTransportServer.init">
-    <mxGraphModel dx="372" dy="313" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="455" dy="382" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -173,46 +173,8 @@
         <mxCell id="Fy8T_VjnAk802TxGcW72-4" value="具体包括：&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;handler&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;端口号" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;align=left;" vertex="1" parent="1">
           <mxGeometry y="80" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Fy8T_VjnAk802TxGcW72-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="Fy8T_VjnAk802TxGcW72-6" target="Fy8T_VjnAk802TxGcW72-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Fy8T_VjnAk802TxGcW72-6" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;创建一个网络模块的实例&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="Fy8T_VjnAk802TxGcW72-6" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;使用Jetty容器完成init()功能&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="150" y="190" width="160" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Fy8T_VjnAk802TxGcW72-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="Fy8T_VjnAk802TxGcW72-9" target="Fy8T_VjnAk802TxGcW72-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Fy8T_VjnAk802TxGcW72-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="Fy8T_VjnAk802TxGcW72-9">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="50" y="310" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Fy8T_VjnAk802TxGcW72-9" value="&lt;pre style=&quot;font-family: &amp;quot;jetbrains mono&amp;quot; ; font-size: 9.8pt&quot;&gt;调用网络模块实例的&lt;br&gt;初始化方法&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="150" y="280" width="160" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Fy8T_VjnAk802TxGcW72-10" value="参数包括：&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;端口号&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;handler" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;align=left;" vertex="1" parent="1">
-          <mxGeometry y="270" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Fy8T_VjnAk802TxGcW72-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="Fy8T_VjnAk802TxGcW72-12" target="Fy8T_VjnAk802TxGcW72-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Fy8T_VjnAk802TxGcW72-12" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;创建序列化实例对象&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="151" y="370" width="160" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Fy8T_VjnAk802TxGcW72-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="Fy8T_VjnAk802TxGcW72-14" target="Fy8T_VjnAk802TxGcW72-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Fy8T_VjnAk802TxGcW72-14" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;创建反序列化实例对象&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="150" y="460" width="160" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Fy8T_VjnAk802TxGcW72-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="Fy8T_VjnAk802TxGcW72-16" target="Fy8T_VjnAk802TxGcW72-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Fy8T_VjnAk802TxGcW72-16" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;创建ServiceManager对象&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="150" y="554" width="160" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Fy8T_VjnAk802TxGcW72-17" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;创建ServiceInvoker对象&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="150" y="640" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
