@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-22T14:06:46.482Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="1RhLG8hS0IUsXNPGljpM" version="17.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-22T14:08:26.184Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="Qjp86rCCRmnYz3L091vk" version="17.4.6" type="github" pages="2">
   <diagram id="q-ANHGBc3iWFSovor3je" name="TransportServer">
     <mxGraphModel dx="569" dy="344" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -159,7 +159,7 @@
         <mxCell id="3IAMp_L_kuW9Ju3ecMRI-1" value="&lt;pre style=&quot;text-align: center&quot;&gt;&lt;font face=&quot;jetbrains mono&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;ServiceInstance就是一个&lt;br/&gt;保存方法与bean的类的&lt;br/&gt;实例&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;align=left;" vertex="1" parent="1">
           <mxGeometry x="779" y="1037" width="151" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3IAMp_L_kuW9Ju3ecMRI-2" value="&lt;pre style=&quot;text-align: center&quot;&gt;&lt;font face=&quot;jetbrains mono&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;ServiceInstance就是一个&lt;br/&gt;保存方法与bean的类的&lt;br/&gt;实例&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;align=left;" vertex="1" parent="1">
+        <mxCell id="3IAMp_L_kuW9Ju3ecMRI-2" value="&lt;pre style=&quot;text-align: center&quot;&gt;&lt;font face=&quot;jetbrains mono&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;根据传入的接口和方法&lt;br/&gt;封装方法的信息&lt;br/&gt;&lt;br/&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;align=left;" vertex="1" parent="1">
           <mxGeometry x="779" y="1137" width="151" height="80" as="geometry" />
         </mxCell>
       </root>
