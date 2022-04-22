@@ -1,23 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2022-04-22T03:30:21.701Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="3tN5O0QU0OK2Ku7Em-Ir" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-22T03:35:43.647Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="zJs0Hn2GjBoKvMMNgqSv" version="17.4.6" type="github">
   <diagram id="iuzk0UsQVcLq_jNyBRRj" name="第 1 页">
-    <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="447" dy="249" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ARuWubajIznbRIlnUUip-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ARuWubajIznbRIlnUUip-1" target="ARuWubajIznbRIlnUUip-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ARuWubajIznbRIlnUUip-1" value="设定插排和快排的阈值 t&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="170" y="160" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ARuWubajIznbRIlnUUip-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ARuWubajIznbRIlnUUip-2" target="ARuWubajIznbRIlnUUip-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ARuWubajIznbRIlnUUip-2" value="选取排序数组区间" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="170" y="240" width="180" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="ARuWubajIznbRIlnUUip-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ARuWubajIznbRIlnUUip-3" target="ARuWubajIznbRIlnUUip-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ARuWubajIznbRIlnUUip-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ARuWubajIznbRIlnUUip-3" target="ARuWubajIznbRIlnUUip-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ARuWubajIznbRIlnUUip-3" value="数组区间 l &amp;gt; t" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="316" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ARuWubajIznbRIlnUUip-4" value="查询数组长度 l" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="ARuWubajIznbRIlnUUip-4" value="在数组区间内随机选取一个元素&lt;br&gt;与首字母交换" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="170" y="425" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ARuWubajIznbRIlnUUip-5" value="插入排序" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="380" y="332" width="180" height="50" as="geometry" />
+          <mxGeometry x="380" y="331" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ARuWubajIznbRIlnUUip-11" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="395" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ARuWubajIznbRIlnUUip-12" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="331" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ARuWubajIznbRIlnUUip-13" value="初始化本段区间遍历设置&lt;br&gt;设置锚点，左指针，右指针" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="170" y="510" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ARuWubajIznbRIlnUUip-14" value="初始化本次遍历设置&lt;br&gt;设置锚点，左指针，右指针" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="170" y="590" width="180" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
