@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-22T13:50:04.909Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="0O9zT5M3Vy7E9zE7BxVA" version="17.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-22T13:54:52.855Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="mHmH51ay_pS7WBOFIiix" version="17.4.6" type="github" pages="2">
   <diagram id="q-ANHGBc3iWFSovor3je" name="TransportServer">
-    <mxGraphModel dx="614" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="569" dy="344" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -129,8 +129,8 @@
         <mxCell id="bU6mloSPx2sbx54e6or_-45" value="&lt;pre&gt;&lt;font face=&quot;jetbrains mono&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;传入参数，接口和bean&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="960" y="854" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bU6mloSPx2sbx54e6or_-46" value="&lt;pre style=&quot;color: rgb(0 , 0 , 0) ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;font face=&quot;jetbrains mono&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;ServiceManager的register方法&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="970" y="790" width="210" height="46" as="geometry" />
+        <mxCell id="bU6mloSPx2sbx54e6or_-46" value="&lt;pre style=&quot;text-align: center ; text-indent: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;font face=&quot;jetbrains mono&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;RpcServer的register方法底层实现就是&lt;br/&gt;ServiceManager的register方法&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="962" y="790" width="210" height="46" as="geometry" />
         </mxCell>
         <mxCell id="bU6mloSPx2sbx54e6or_-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="bU6mloSPx2sbx54e6or_-47" target="bU6mloSPx2sbx54e6or_-49">
           <mxGeometry relative="1" as="geometry" />
@@ -152,6 +152,9 @@
         </mxCell>
         <mxCell id="bU6mloSPx2sbx54e6or_-53" value="&lt;pre&gt;&lt;font face=&quot;jetbrains mono&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;ServiceInstance和ServiceDescriptor&lt;br/&gt;键值对的形式存储到service&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="950" y="1246" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DqeXP-BM6H6NjHvskQRk-1" value="参数包括：&lt;br&gt;&lt;span&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;接口，方法所属的接口&lt;br&gt;&lt;span&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;bean，所属接口实现&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 类的实例" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;align=left;" vertex="1" parent="1">
+          <mxGeometry x="779" y="847" width="151" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
