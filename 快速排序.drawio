@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-22T03:47:49.589Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="WXcK8ufL2ZmtrpxvGpA6" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-22T03:48:34.829Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="xoQuOiZdIw5XrooFlWz1" version="17.4.6" type="github">
   <diagram id="iuzk0UsQVcLq_jNyBRRj" name="第 1 页">
-    <mxGraphModel dx="539" dy="301" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="460" dy="256" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -69,6 +69,14 @@
         <mxCell id="ARuWubajIznbRIlnUUip-18" value="右指针 &amp;gt; 区间左端点&lt;br&gt;且右指针对应值 &amp;gt; 锚点值" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="691" width="180" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="ARuWubajIznbRIlnUUip-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ARuWubajIznbRIlnUUip-19" target="ARuWubajIznbRIlnUUip-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="471" y="680" />
+              <mxPoint x="305" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ARuWubajIznbRIlnUUip-19" value="右指针左移" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="381" y="706" width="180" height="50" as="geometry" />
         </mxCell>
@@ -106,6 +114,16 @@
         </mxCell>
         <mxCell id="ARuWubajIznbRIlnUUip-38" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="347" y="731" width="34" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ARuWubajIznbRIlnUUip-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="466" y="598" as="sourcePoint" />
+            <mxPoint x="300" y="603" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="466" y="572" />
+              <mxPoint x="300" y="572" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
