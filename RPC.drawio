@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-22T13:19:14.153Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="Kla_NqxTyFLkNpV08wae" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-22T13:31:29.142Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="d8JV9lgqpGwsj0Racp5C" version="17.4.6" type="github">
   <diagram id="q-ANHGBc3iWFSovor3je" name="TransportServer">
-    <mxGraphModel dx="722" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1005" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -122,6 +122,36 @@
         </mxCell>
         <mxCell id="bU6mloSPx2sbx54e6or_-42" value="序列化 Response&lt;br&gt;并写入到输出流&lt;br&gt;打印日志" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="511" y="1147" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bU6mloSPx2sbx54e6or_-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="bU6mloSPx2sbx54e6or_-45" target="bU6mloSPx2sbx54e6or_-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bU6mloSPx2sbx54e6or_-45" value="&lt;pre&gt;&lt;font face=&quot;jetbrains mono&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;传入参数，接口和bean&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="960" y="854" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bU6mloSPx2sbx54e6or_-46" value="&lt;pre style=&quot;color: rgb(0 , 0 , 0) ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;font face=&quot;jetbrains mono&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;ServiceManager的register方法&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="970" y="790" width="210" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="bU6mloSPx2sbx54e6or_-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="bU6mloSPx2sbx54e6or_-47" target="bU6mloSPx2sbx54e6or_-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bU6mloSPx2sbx54e6or_-47" value="&lt;pre&gt;&lt;font face=&quot;jetbrains mono&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;通过反射获取接口中所有的方法&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="960" y="950" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bU6mloSPx2sbx54e6or_-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="bU6mloSPx2sbx54e6or_-49" target="bU6mloSPx2sbx54e6or_-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bU6mloSPx2sbx54e6or_-49" value="&lt;pre&gt;&lt;font face=&quot;jetbrains mono&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;新建ServiceInstance&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1047" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bU6mloSPx2sbx54e6or_-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="bU6mloSPx2sbx54e6or_-51" target="bU6mloSPx2sbx54e6or_-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bU6mloSPx2sbx54e6or_-51" value="&lt;pre&gt;&lt;font face=&quot;jetbrains mono&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;新建ServiceDescriptor&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1146" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bU6mloSPx2sbx54e6or_-53" value="&lt;pre&gt;&lt;font face=&quot;jetbrains mono&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;ServiceInstance和ServiceDescriptor&lt;br/&gt;键值对的形式存储到service&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1246" width="230" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
