@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-22T13:35:11.133Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="UtnaOYm6mBacamQ57xnl" version="17.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-22T13:35:39.081Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="X7yspJy6jZ8F4TKEgZCi" version="17.4.6" type="github" pages="2">
   <diagram id="q-ANHGBc3iWFSovor3je" name="TransportServer">
     <mxGraphModel dx="1535" dy="1290" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -164,13 +164,13 @@
         <mxCell id="Fy8T_VjnAk802TxGcW72-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="Fy8T_VjnAk802TxGcW72-2" target="Fy8T_VjnAk802TxGcW72-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Fy8T_VjnAk802TxGcW72-2" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;传入初始化的参数&lt;br&gt;RPCServerConfig的实例&lt;br&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="Fy8T_VjnAk802TxGcW72-2" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;传入初始化的参数&lt;br&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="150" y="98" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Fy8T_VjnAk802TxGcW72-3" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;HttpTransportServer的初始化过程&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="152" y="50" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Fy8T_VjnAk802TxGcW72-4" value="具体包括：&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;网络模块&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;序列化实现&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;反序列化实现&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;端口号" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;align=left;" vertex="1" parent="1">
+        <mxCell id="Fy8T_VjnAk802TxGcW72-4" value="具体包括：&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;handler&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;端口号" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;align=left;" vertex="1" parent="1">
           <mxGeometry y="80" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Fy8T_VjnAk802TxGcW72-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="Fy8T_VjnAk802TxGcW72-6" target="Fy8T_VjnAk802TxGcW72-9">
