@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-22T04:10:09.056Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="xnGfRMBwvw6X1-qI56Mz" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-22T05:41:00.261Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="lzkG_ZjaULCWsw08a0bl" version="17.4.6" type="github">
   <diagram id="iuzk0UsQVcLq_jNyBRRj" name="第 1 页">
     <mxGraphModel dx="712" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -94,7 +94,7 @@
         <mxCell id="ARuWubajIznbRIlnUUip-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ARuWubajIznbRIlnUUip-27" target="ARuWubajIznbRIlnUUip-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ARuWubajIznbRIlnUUip-27" value="交换左右指针对应元素" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="ARuWubajIznbRIlnUUip-27" value="交换左右指针对应元素；&lt;br&gt;左指针右移，右指针左移" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="170" y="904" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ARuWubajIznbRIlnUUip-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ARuWubajIznbRIlnUUip-28" target="ARuWubajIznbRIlnUUip-29">
