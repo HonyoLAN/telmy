@@ -1,1 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2022-04-27T07:35:56.939Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" version="17.4.6" etag="TGx4zL49_1mLCR5EX7cA" type="github"><diagram id="vW2YhJrZi2cBQ3EgaOuf">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-27T07:37:53.923Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="Nyk2Q7yp7b0vI38o04-D" version="17.4.6" type="github">
+  <diagram id="vW2YhJrZi2cBQ3EgaOuf" name="第 1 页">
+    <mxGraphModel dx="447" dy="249" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="00Nbcd-gsiype4ha2fb2-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="00Nbcd-gsiype4ha2fb2-1" target="00Nbcd-gsiype4ha2fb2-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="00Nbcd-gsiype4ha2fb2-1" value="新建dp数组，长度与nums[]相同" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="250" y="70" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="00Nbcd-gsiype4ha2fb2-2" value="初始化dp[0] = nums[0]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="250" y="146" width="180" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
