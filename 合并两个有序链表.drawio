@@ -1,1 +1,65 @@
-<mxfile host="app.diagrams.net" modified="2022-04-27T08:13:03.555Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" version="17.4.6" etag="L5r4HWY75wUzCW4Z_dzi" type="github"><diagram id="IPTv2HRYX7NbaIMjYubr">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-27T08:19:10.275Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="nMrQ4OK2qIaSH95s6MKj" version="17.4.6" type="github">
+  <diagram id="IPTv2HRYX7NbaIMjYubr" name="第 1 页">
+    <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WzEZhB7jX5tD9OSPEVII-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WzEZhB7jX5tD9OSPEVII-1" target="WzEZhB7jX5tD9OSPEVII-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WzEZhB7jX5tD9OSPEVII-1" value="node1 = list1;&lt;br&gt;node2 = lis2;&lt;br&gt;新建node节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="294" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WzEZhB7jX5tD9OSPEVII-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WzEZhB7jX5tD9OSPEVII-2" target="WzEZhB7jX5tD9OSPEVII-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WzEZhB7jX5tD9OSPEVII-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WzEZhB7jX5tD9OSPEVII-2" target="WzEZhB7jX5tD9OSPEVII-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="354" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WzEZhB7jX5tD9OSPEVII-2" value="while(node1 != null &amp;amp;&amp;amp; node2 != null)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="294" y="187" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WzEZhB7jX5tD9OSPEVII-4" value="当有一个链表遍历到末尾时，另一个链表直接接到node之后" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="494" y="187" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WzEZhB7jX5tD9OSPEVII-6" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="187" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WzEZhB7jX5tD9OSPEVII-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WzEZhB7jX5tD9OSPEVII-9" target="WzEZhB7jX5tD9OSPEVII-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WzEZhB7jX5tD9OSPEVII-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WzEZhB7jX5tD9OSPEVII-9" target="WzEZhB7jX5tD9OSPEVII-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WzEZhB7jX5tD9OSPEVII-9" value="node1.val &amp;gt; node2.val" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="269" y="275" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WzEZhB7jX5tD9OSPEVII-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WzEZhB7jX5tD9OSPEVII-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="354.1034482758621" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WzEZhB7jX5tD9OSPEVII-10" value="node.next = node2" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="388" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WzEZhB7jX5tD9OSPEVII-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WzEZhB7jX5tD9OSPEVII-12" target="WzEZhB7jX5tD9OSPEVII-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="555" y="470" />
+              <mxPoint x="230" y="470" />
+              <mxPoint x="230" y="217" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WzEZhB7jX5tD9OSPEVII-12" value="&lt;span&gt;node.next = node1&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="285" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WzEZhB7jX5tD9OSPEVII-14" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="433" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
