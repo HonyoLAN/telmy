@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-29T04:09:49.442Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="D2iX_ZWCiZ1ox9kISdeJ" version="17.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-29T04:10:41.708Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="tXaKqbDUgi4oDoRZJsF_" version="17.4.6" type="github" pages="2">
   <diagram id="X2HO5SKJAV-MGK70cwq4" name="第 1 页">
     <mxGraphModel dx="2234" dy="1246" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -85,7 +85,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="16IgjaPggy1D-cRRsdkL" name="无重复字符的最长子串">
-    <mxGraphModel dx="745" dy="415" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="626" dy="349" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -153,6 +153,18 @@
         </mxCell>
         <mxCell id="6Lp9jjhcZdvncK8w834M-4" value="右指针后移一位" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="85" y="760" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6Lp9jjhcZdvncK8w834M-8" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="345" y="108" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6Lp9jjhcZdvncK8w834M-9" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="301" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6Lp9jjhcZdvncK8w834M-10" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="188" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6Lp9jjhcZdvncK8w834M-11" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="231" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
