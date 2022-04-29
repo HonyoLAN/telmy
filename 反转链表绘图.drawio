@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-29T06:17:58.679Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="1RKS5Z3TTTYsb3nCOy5z" version="17.5.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-04-29T06:18:19.694Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="1hjKzqmuoQwbXus3HRVo" version="17.5.0" type="github" pages="4">
   <diagram id="X2HO5SKJAV-MGK70cwq4" name="反转链表">
     <mxGraphModel dx="1022" dy="380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -253,7 +253,7 @@
         <mxCell id="R49HvG60e09yNwkqFIrP-16" value="翻转局部代码" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="383" width="140" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="R49HvG60e09yNwkqFIrP-18" value="反转后的尾节点指向新的被翻转片段的首节点" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+        <mxCell id="R49HvG60e09yNwkqFIrP-18" value="反转后的尾节点指向&lt;font color=&quot;#ff0000&quot;&gt;新的被翻转片段的首节点&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="445" width="140" height="29" as="geometry" />
         </mxCell>
       </root>
