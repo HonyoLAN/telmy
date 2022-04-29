@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-29T06:03:07.172Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="pwis2DlzEWkTkhrijkYx" version="17.5.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-04-29T06:05:28.921Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="15Yd4DiClC4wKgITqDGT" version="17.5.0" type="github" pages="3">
   <diagram id="X2HO5SKJAV-MGK70cwq4" name="反转链表">
     <mxGraphModel dx="1022" dy="380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -85,7 +85,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="16IgjaPggy1D-cRRsdkL" name="无重复字符的最长子串">
-    <mxGraphModel dx="1022" dy="380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -151,7 +151,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4B4qVe5rNJB4f1c4CRTM" name="数组中的第K个最大元素">
-    <mxGraphModel dx="261" dy="127" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="539" dy="262" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -164,11 +164,38 @@
         <mxCell id="51vF44mHL_PRQtkX5z1E-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="51vF44mHL_PRQtkX5z1E-2" target="51vF44mHL_PRQtkX5z1E-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="RS5wZd_UtbWYDeqEEmyp-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="51vF44mHL_PRQtkX5z1E-2" target="RS5wZd_UtbWYDeqEEmyp-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="51vF44mHL_PRQtkX5z1E-2" value="元素依次压入小顶堆" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="130" y="122" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="51vF44mHL_PRQtkX5z1E-6" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="167" width="150" height="80" as="geometry" />
+        <mxCell id="RS5wZd_UtbWYDeqEEmyp-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="51vF44mHL_PRQtkX5z1E-6" target="RS5wZd_UtbWYDeqEEmyp-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RS5wZd_UtbWYDeqEEmyp-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="51vF44mHL_PRQtkX5z1E-6" target="RS5wZd_UtbWYDeqEEmyp-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="51vF44mHL_PRQtkX5z1E-6" value="堆的尺寸大于K" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="179" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RS5wZd_UtbWYDeqEEmyp-1" value="弹出多的元素" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="312" y="204" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RS5wZd_UtbWYDeqEEmyp-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RS5wZd_UtbWYDeqEEmyp-3" target="51vF44mHL_PRQtkX5z1E-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RS5wZd_UtbWYDeqEEmyp-3" value="继续压入" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="292" width="120" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="RS5wZd_UtbWYDeqEEmyp-5" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="259" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RS5wZd_UtbWYDeqEEmyp-6" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="190" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RS5wZd_UtbWYDeqEEmyp-8" value="所有元素遍历完成后，取堆顶元素即为第K大的值，堆底即为最大的元素" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="107" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
