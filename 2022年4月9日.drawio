@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-29T13:18:14.660Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="DuQB7GR3-CVI4gDB63cF" version="17.5.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-04-29T13:24:22.088Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="GKXnZXDHnWEgylw25V7i" version="17.5.0" type="github" pages="4">
   <diagram id="hVGK91E18sHo1m6VZFf4" name="二叉树的层序遍历">
     <mxGraphModel dx="407" dy="219" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -373,7 +373,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nG8Ca_uCqYdz6EyjlPaK" name="有效的括号">
-    <mxGraphModel dx="284" dy="96" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1202" dy="407" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -413,41 +413,36 @@
         <mxCell id="jN7rm-vNSfY-s-b2VWS8-10" value="遍历字符串中的字符" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="170" y="340" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jN7rm-vNSfY-s-b2VWS8-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jN7rm-vNSfY-s-b2VWS8-13" target="jN7rm-vNSfY-s-b2VWS8-17">
+        <mxCell id="jN7rm-vNSfY-s-b2VWS8-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jN7rm-vNSfY-s-b2VWS8-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="661" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jN7rm-vNSfY-s-b2VWS8-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jN7rm-vNSfY-s-b2VWS8-13" target="jN7rm-vNSfY-s-b2VWS8-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jN7rm-vNSfY-s-b2VWS8-13" value="当前字符是左括号？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="582" width="140" height="60" as="geometry" />
+        <mxCell id="jN7rm-vNSfY-s-b2VWS8-13" value="当前字符是&#39;)&#39;且&lt;br&gt;stack.peek()是&#39;(&#39;？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="576" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jN7rm-vNSfY-s-b2VWS8-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jN7rm-vNSfY-s-b2VWS8-17" target="jN7rm-vNSfY-s-b2VWS8-22">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="jN7rm-vNSfY-s-b2VWS8-17" value="栈顶弹出字符tmp&lt;br&gt;(只可能是左括号)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="170" y="667" width="120" height="30" as="geometry" />
+        <mxCell id="jN7rm-vNSfY-s-b2VWS8-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="812" as="sourcePoint" />
+            <mxPoint x="230.0344827586207" y="835.0147783251232" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="jN7rm-vNSfY-s-b2VWS8-19" value="栈中压入当前字符" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="327.5" y="505" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jN7rm-vNSfY-s-b2VWS8-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jN7rm-vNSfY-s-b2VWS8-22" target="jN7rm-vNSfY-s-b2VWS8-23">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="jN7rm-vNSfY-s-b2VWS8-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jN7rm-vNSfY-s-b2VWS8-22" target="jN7rm-vNSfY-s-b2VWS8-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="jN7rm-vNSfY-s-b2VWS8-22" value="map.get(当前字符)&lt;br&gt;== tmp?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="720" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="jN7rm-vNSfY-s-b2VWS8-23" value="返回false" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="330" y="735" width="120" height="30" as="geometry" />
+        <mxCell id="jN7rm-vNSfY-s-b2VWS8-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jN7rm-vNSfY-s-b2VWS8-64" target="jN7rm-vNSfY-s-b2VWS8-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="871" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="jN7rm-vNSfY-s-b2VWS8-24" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="287.5" y="582" width="40" height="15" as="geometry" />
+          <mxGeometry x="287.5" y="576" width="40" height="15" as="geometry" />
         </mxCell>
         <mxCell id="jN7rm-vNSfY-s-b2VWS8-25" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="235" y="642" width="35" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="jN7rm-vNSfY-s-b2VWS8-26" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="292.5" y="720" width="35" height="25" as="geometry" />
+          <mxGeometry x="235" y="636" width="35" height="25" as="geometry" />
         </mxCell>
         <mxCell id="jN7rm-vNSfY-s-b2VWS8-27" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="100" y="450" width="40" height="15" as="geometry" />
@@ -507,8 +502,52 @@
         <mxCell id="jN7rm-vNSfY-s-b2VWS8-41" value="stack为空？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="490" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jN7rm-vNSfY-s-b2VWS8-42" value="栈中压入当前字符" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="340" y="607" width="120" height="30" as="geometry" />
+        <mxCell id="jN7rm-vNSfY-s-b2VWS8-42" value="stack弹出栈顶" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="328" y="591" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jN7rm-vNSfY-s-b2VWS8-47" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="287.5" y="505" width="40" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="jN7rm-vNSfY-s-b2VWS8-48" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="550" width="35" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="jN7rm-vNSfY-s-b2VWS8-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jN7rm-vNSfY-s-b2VWS8-50" target="jN7rm-vNSfY-s-b2VWS8-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jN7rm-vNSfY-s-b2VWS8-50" value="当前字符是&#39;]&#39;且&lt;br&gt;stack.peek()是&#39;[&#39;？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="660" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jN7rm-vNSfY-s-b2VWS8-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="jN7rm-vNSfY-s-b2VWS8-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="296" y="690" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jN7rm-vNSfY-s-b2VWS8-53" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="283.5" y="660" width="40" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="jN7rm-vNSfY-s-b2VWS8-54" value="stack弹出栈顶" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="324" y="675" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jN7rm-vNSfY-s-b2VWS8-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jN7rm-vNSfY-s-b2VWS8-55" target="jN7rm-vNSfY-s-b2VWS8-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jN7rm-vNSfY-s-b2VWS8-55" value="当前字符是&#39;}&#39;且&lt;br&gt;stack.peek()是&#39;{&#39;？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="746" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jN7rm-vNSfY-s-b2VWS8-57" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="282.5" y="748" width="40" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="jN7rm-vNSfY-s-b2VWS8-58" value="stack弹出栈顶" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="324" y="761" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jN7rm-vNSfY-s-b2VWS8-61" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="235" y="720" width="35" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="jN7rm-vNSfY-s-b2VWS8-62" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="235" y="810" width="35" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="jN7rm-vNSfY-s-b2VWS8-64" value="栈中压入当前字符" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="170" y="835" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
