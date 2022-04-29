@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-29T07:38:08.272Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="nUjaUwp5BwbsKB9HPcQQ" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-29T07:46:12.721Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="d5wL6fvDX4Bk-YN55coh" version="17.5.0" type="github">
   <diagram id="hVGK91E18sHo1m6VZFf4" name="二叉树的层序遍历">
-    <mxGraphModel dx="899" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="854" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,12 +25,14 @@
         <mxCell id="Gh315pZhHm5A6wYblPY9-5" value="queue1不为空 ||&lt;br&gt;queue2不为空" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="291" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Gh315pZhHm5A6wYblPY9-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Gh315pZhHm5A6wYblPY9-9" target="Gh315pZhHm5A6wYblPY9-5">
+        <mxCell id="Gh315pZhHm5A6wYblPY9-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Gh315pZhHm5A6wYblPY9-9">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="341" y="844" as="sourcePoint" />
+            <mxPoint x="90" y="425" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="341" y="770" />
-              <mxPoint x="10" y="770" />
-              <mxPoint x="10" y="331" />
+              <mxPoint x="341" y="864" />
+              <mxPoint x="10" y="864" />
+              <mxPoint x="10" y="425" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -64,7 +66,10 @@
         <mxCell id="Gh315pZhHm5A6wYblPY9-20" value="queue2不为空？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="479" y="598" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Gh315pZhHm5A6wYblPY9-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Gh315pZhHm5A6wYblPY9-22" target="Gh315pZhHm5A6wYblPY9-20">
+        <mxCell id="Gh315pZhHm5A6wYblPY9-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Gh315pZhHm5A6wYblPY9-81" target="Gh315pZhHm5A6wYblPY9-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gh315pZhHm5A6wYblPY9-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gh315pZhHm5A6wYblPY9-22" target="Gh315pZhHm5A6wYblPY9-81">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gh315pZhHm5A6wYblPY9-22" value="取出queue2中元素node加入list&lt;br&gt;并将node左右子节点放到queue1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
@@ -100,10 +105,13 @@
         <mxCell id="Gh315pZhHm5A6wYblPY9-49" value="返回res" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="276" y="130" width="84" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Gh315pZhHm5A6wYblPY9-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Gh315pZhHm5A6wYblPY9-51" target="Gh315pZhHm5A6wYblPY9-52">
+        <mxCell id="Gh315pZhHm5A6wYblPY9-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Gh315pZhHm5A6wYblPY9-79" target="Gh315pZhHm5A6wYblPY9-52">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Gh315pZhHm5A6wYblPY9-51" value="取出queue1中元素node加入list&lt;br&gt;并将node左右子节点放到queue2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="Gh315pZhHm5A6wYblPY9-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gh315pZhHm5A6wYblPY9-51" target="Gh315pZhHm5A6wYblPY9-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Gh315pZhHm5A6wYblPY9-51" value="取出queue1中元素node加入list&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="60" y="710" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Gh315pZhHm5A6wYblPY9-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gh315pZhHm5A6wYblPY9-52" target="Gh315pZhHm5A6wYblPY9-51">
@@ -126,9 +134,10 @@
         </mxCell>
         <mxCell id="Gh315pZhHm5A6wYblPY9-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Gh315pZhHm5A6wYblPY9-68">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="340" y="770" as="targetPoint" />
+            <mxPoint x="340" y="863" as="targetPoint" />
+            <mxPoint x="741" y="841" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="741" y="770" />
+              <mxPoint x="741" y="863" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -137,6 +146,12 @@
         </mxCell>
         <mxCell id="Gh315pZhHm5A6wYblPY9-71" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="661" y="598" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Gh315pZhHm5A6wYblPY9-79" value="如果node左右子节点不为空，将node左右子节点放到queue2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="786" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Gh315pZhHm5A6wYblPY9-81" value="如果node左右子节点不为空，将node左右子节点放到queue1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="449" y="786" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
