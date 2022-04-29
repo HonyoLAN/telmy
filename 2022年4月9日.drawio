@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-29T08:16:27.902Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="5mkkBnYYJheNO8VaSqUG" version="17.5.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-04-29T08:26:19.189Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="LmR3yVP0WNkNeqyOrMro" version="17.5.0" type="github" pages="3">
   <diagram id="hVGK91E18sHo1m6VZFf4" name="二叉树的层序遍历">
     <mxGraphModel dx="407" dy="219" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -236,10 +236,74 @@
     </mxGraphModel>
   </diagram>
   <diagram id="uP21goaMf-xS_A9S_6vw" name="有效的括号">
-    <mxGraphModel dx="782" dy="346" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="261" dy="115" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="rZVXF0rxl6hU1L6rRGSg-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rZVXF0rxl6hU1L6rRGSg-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230.02857142857135" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rZVXF0rxl6hU1L6rRGSg-1" value="极端情况检测" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="170" y="70" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rZVXF0rxl6hU1L6rRGSg-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rZVXF0rxl6hU1L6rRGSg-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="352" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rZVXF0rxl6hU1L6rRGSg-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rZVXF0rxl6hU1L6rRGSg-4" target="rZVXF0rxl6hU1L6rRGSg-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rZVXF0rxl6hU1L6rRGSg-4" value="如果一个元素也没有" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="130" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rZVXF0rxl6hU1L6rRGSg-7" value="返回 true" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="354" y="145" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rZVXF0rxl6hU1L6rRGSg-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rZVXF0rxl6hU1L6rRGSg-8" target="rZVXF0rxl6hU1L6rRGSg-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rZVXF0rxl6hU1L6rRGSg-8" value="初始化栈stack&lt;br&gt;初始化HashMap" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="170" y="220" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rZVXF0rxl6hU1L6rRGSg-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rZVXF0rxl6hU1L6rRGSg-11" target="rZVXF0rxl6hU1L6rRGSg-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rZVXF0rxl6hU1L6rRGSg-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rZVXF0rxl6hU1L6rRGSg-11" target="rZVXF0rxl6hU1L6rRGSg-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rZVXF0rxl6hU1L6rRGSg-11" value="遍历字符串中的字符" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="170" y="340" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rZVXF0rxl6hU1L6rRGSg-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rZVXF0rxl6hU1L6rRGSg-14" target="rZVXF0rxl6hU1L6rRGSg-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rZVXF0rxl6hU1L6rRGSg-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rZVXF0rxl6hU1L6rRGSg-14" target="rZVXF0rxl6hU1L6rRGSg-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rZVXF0rxl6hU1L6rRGSg-14" value="当前字符是左括号？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="390" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rZVXF0rxl6hU1L6rRGSg-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rZVXF0rxl6hU1L6rRGSg-16" target="rZVXF0rxl6hU1L6rRGSg-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rZVXF0rxl6hU1L6rRGSg-16" value="将三种括号存入map中" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="165" y="280" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rZVXF0rxl6hU1L6rRGSg-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rZVXF0rxl6hU1L6rRGSg-24" target="rZVXF0rxl6hU1L6rRGSg-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rZVXF0rxl6hU1L6rRGSg-24" value="栈顶弹出字符tmp" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="170" y="475" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rZVXF0rxl6hU1L6rRGSg-26" value="栈中压入当前字符" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="330" y="405" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rZVXF0rxl6hU1L6rRGSg-28" value="当前字符.equal(tmp) ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="528" width="140" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
