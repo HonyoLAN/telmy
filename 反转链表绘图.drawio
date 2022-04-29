@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-29T04:07:20.158Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="fa_ddLjpH1SNDIM7UZOZ" version="17.4.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-29T04:08:07.714Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="zVFMeLeh4AyvBkyF-C1b" version="17.4.6" type="github" pages="2">
   <diagram id="X2HO5SKJAV-MGK70cwq4" name="第 1 页">
     <mxGraphModel dx="2234" dy="1246" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -133,6 +133,9 @@
         </mxCell>
         <mxCell id="MC6HlJp39Pae0oxpBvEa-25" value="len = Math.max(tmp, len)" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="612" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MC6HlJp39Pae0oxpBvEa-27" value="记录出现的字符以及其下标" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="90" y="670" width="260" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
