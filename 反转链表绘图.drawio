@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-29T06:06:28.141Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="DL6hCDJkOd7XvD5PoCIV" version="17.5.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-04-29T06:17:58.679Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="1RKS5Z3TTTYsb3nCOy5z" version="17.5.0" type="github" pages="4">
   <diagram id="X2HO5SKJAV-MGK70cwq4" name="反转链表">
     <mxGraphModel dx="1022" dy="380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -196,6 +196,65 @@
         </mxCell>
         <mxCell id="RS5wZd_UtbWYDeqEEmyp-8" value="所有元素遍历完成后，取堆顶元素即为第K大的值，堆底即为最大的元素" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="345" y="107" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="tDt2x9BniHM5gpZu2v8g" name="K 个一组翻转链表">
+    <mxGraphModel dx="447" dy="217" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="R49HvG60e09yNwkqFIrP-1" value="链表局部&lt;span style=&quot;text-align: left&quot;&gt;翻转&lt;/span&gt;方法" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="150" y="60" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R49HvG60e09yNwkqFIrP-4" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;输入：&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;局部头，局部尾&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;输出：&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;翻转后的头节点&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R49HvG60e09yNwkqFIrP-5" value="&lt;div style=&quot;text-align: left&quot;&gt;类似于链表反转的思想；&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;区别就是翻转链表有头有尾&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="120" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R49HvG60e09yNwkqFIrP-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R49HvG60e09yNwkqFIrP-6" target="R49HvG60e09yNwkqFIrP-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R49HvG60e09yNwkqFIrP-6" value="保存首指针" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="400" y="60" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R49HvG60e09yNwkqFIrP-7" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;确定需翻转链表&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="396" y="20" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R49HvG60e09yNwkqFIrP-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R49HvG60e09yNwkqFIrP-8" target="R49HvG60e09yNwkqFIrP-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R49HvG60e09yNwkqFIrP-8" value="遍历找到尾指针" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="400" y="140" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R49HvG60e09yNwkqFIrP-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R49HvG60e09yNwkqFIrP-10" target="R49HvG60e09yNwkqFIrP-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R49HvG60e09yNwkqFIrP-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R49HvG60e09yNwkqFIrP-10" target="R49HvG60e09yNwkqFIrP-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R49HvG60e09yNwkqFIrP-10" value="找尾指针时，&lt;br&gt;发现了null节点" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="210" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R49HvG60e09yNwkqFIrP-12" value="长度不够k，直接返回" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="240" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="R49HvG60e09yNwkqFIrP-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R49HvG60e09yNwkqFIrP-14" target="R49HvG60e09yNwkqFIrP-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R49HvG60e09yNwkqFIrP-14" value="保存下次遍历的首指针" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="321" width="140" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="R49HvG60e09yNwkqFIrP-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R49HvG60e09yNwkqFIrP-16" target="R49HvG60e09yNwkqFIrP-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R49HvG60e09yNwkqFIrP-16" value="翻转局部代码" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="383" width="140" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="R49HvG60e09yNwkqFIrP-18" value="反转后的尾节点指向新的被翻转片段的首节点" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="445" width="140" height="29" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
