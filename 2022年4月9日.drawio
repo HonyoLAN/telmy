@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-29T08:55:23.725Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="Zf3TlLli7Stcii0u3Pg2" version="17.5.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-04-29T08:58:02.316Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="QD6dKqMcjh2FBr3Vr5oV" version="17.5.0" type="github" pages="3">
   <diagram id="hVGK91E18sHo1m6VZFf4" name="二叉树的层序遍历">
     <mxGraphModel dx="407" dy="219" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -236,7 +236,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="uP21goaMf-xS_A9S_6vw" name="有效的括号">
-    <mxGraphModel dx="539" dy="239" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="712" dy="383" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -256,7 +256,7 @@
         <mxCell id="rZVXF0rxl6hU1L6rRGSg-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rZVXF0rxl6hU1L6rRGSg-4" target="rZVXF0rxl6hU1L6rRGSg-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rZVXF0rxl6hU1L6rRGSg-4" value="或者元素个数为奇数" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+        <mxCell id="rZVXF0rxl6hU1L6rRGSg-4" value="元素个数为奇数" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="130" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rZVXF0rxl6hU1L6rRGSg-7" value="返回 false" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
