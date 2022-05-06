@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-06T00:32:27.143Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="5JjIfat0RtoS47-FGIcr" version="18.0.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-05-06T00:33:15.790Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="gSIaL1ooM3uB6LoN5It5" version="18.0.0" type="github" pages="3">
   <diagram id="6ehh07f-5xCHu8n4xZN9" name="买卖股票的最佳时机">
     <mxGraphModel dx="614" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -225,7 +225,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ktplChWBLcyLa-KyzZyt" name="二叉树的最近公共祖先">
-    <mxGraphModel dx="652" dy="335" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="447" dy="230" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -278,13 +278,13 @@
         <mxCell id="GIbB7Cm-u87zAvDO0Gge-13" value="返回的右节点为空" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="70" y="560" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="GIbB7Cm-u87zAvDO0Gge-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="GIbB7Cm-u87zAvDO0Gge-19" edge="1">
+        <mxCell id="GIbB7Cm-u87zAvDO0Gge-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="GIbB7Cm-u87zAvDO0Gge-19" target="GIbB7Cm-u87zAvDO0Gge-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="410" y="405" />
               <mxPoint x="410" y="640" />
               <mxPoint x="50" y="640" />
-              <mxPoint x="50" y="320" />
+              <mxPoint x="50" y="228" />
             </Array>
             <mxPoint x="90" y="320" as="targetPoint" />
           </mxGeometry>
