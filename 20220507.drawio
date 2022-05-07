@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-07T01:27:27.021Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="asXP28xwPtKetFBTCFr8" version="18.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-07T02:16:31.170Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="CDeoHrUJxBeM5fiKYo68" version="18.0.1" type="github" pages="2">
   <diagram id="FW3BfJ-pZU4DDBVMpS15" name="全排列">
-    <mxGraphModel dx="680" dy="379" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="852" dy="317" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -96,8 +96,8 @@
         <mxCell id="sj79IflxECgDqwDJokLC-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sj79IflxECgDqwDJokLC-26" target="sj79IflxECgDqwDJokLC-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="sj79IflxECgDqwDJokLC-26" value="新建本次结果数组 newPath&lt;br&gt;并将当前元素放入 newPath" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="355" y="550" width="160" height="40" as="geometry" />
+        <mxCell id="sj79IflxECgDqwDJokLC-26" value="新建结果数组 newPath存放path&lt;br&gt;并将当前元素放入 newPath" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="345" y="550" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sj79IflxECgDqwDJokLC-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sj79IflxECgDqwDJokLC-27" target="sj79IflxECgDqwDJokLC-28">
           <mxGeometry relative="1" as="geometry" />
@@ -136,6 +136,102 @@
         </mxCell>
         <mxCell id="sj79IflxECgDqwDJokLC-45" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="550" y="480" width="30" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="qas5ze-eFR2vz1IoCG_s" name="合并K个升序链表">
+    <mxGraphModel dx="1303" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EDJ-C9gQJ7URhf7bpNq9-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EDJ-C9gQJ7URhf7bpNq9-1" target="EDJ-C9gQJ7URhf7bpNq9-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EDJ-C9gQJ7URhf7bpNq9-1" value="极端情况检测" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="30" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EDJ-C9gQJ7URhf7bpNq9-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EDJ-C9gQJ7URhf7bpNq9-3" target="EDJ-C9gQJ7URhf7bpNq9-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EDJ-C9gQJ7URhf7bpNq9-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EDJ-C9gQJ7URhf7bpNq9-3" target="EDJ-C9gQJ7URhf7bpNq9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EDJ-C9gQJ7URhf7bpNq9-3" value="头节点数组为空 ||&lt;br&gt;头节点内元素数量 &amp;lt; 0?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="110" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EDJ-C9gQJ7URhf7bpNq9-6" value="返回null" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="230" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EDJ-C9gQJ7URhf7bpNq9-7" value="递&lt;br&gt;将数组内的链表两两分组" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="230" y="130" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EDJ-C9gQJ7URhf7bpNq9-10" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EDJ-C9gQJ7URhf7bpNq9-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EDJ-C9gQJ7URhf7bpNq9-11" target="EDJ-C9gQJ7URhf7bpNq9-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EDJ-C9gQJ7URhf7bpNq9-11" value="递&lt;br&gt;将数组内的链表两两分组" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="488" y="30" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EDJ-C9gQJ7URhf7bpNq9-12" value="&lt;b&gt;函数名&lt;br&gt;&lt;/b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;partion&lt;br&gt;&lt;b&gt;参数&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;数组链表，左指针，右指针&lt;br&gt;&lt;b&gt;返回类型&lt;br&gt;&lt;/b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;ListNode" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="658" y="16" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EDJ-C9gQJ7URhf7bpNq9-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EDJ-C9gQJ7URhf7bpNq9-13" target="EDJ-C9gQJ7URhf7bpNq9-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EDJ-C9gQJ7URhf7bpNq9-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EDJ-C9gQJ7URhf7bpNq9-13" target="EDJ-C9gQJ7URhf7bpNq9-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EDJ-C9gQJ7URhf7bpNq9-13" value="左指针 == 右指针" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="478" y="110" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EDJ-C9gQJ7URhf7bpNq9-14" value="该分组内只有一个链表了&lt;br&gt;直接返回该链表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="683" y="130" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EDJ-C9gQJ7URhf7bpNq9-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EDJ-C9gQJ7URhf7bpNq9-15" target="EDJ-C9gQJ7URhf7bpNq9-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EDJ-C9gQJ7URhf7bpNq9-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EDJ-C9gQJ7URhf7bpNq9-15" target="EDJ-C9gQJ7URhf7bpNq9-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EDJ-C9gQJ7URhf7bpNq9-15" value="找到中间指针" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="488" y="230" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EDJ-C9gQJ7URhf7bpNq9-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EDJ-C9gQJ7URhf7bpNq9-16" target="EDJ-C9gQJ7URhf7bpNq9-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="340" />
+              <mxPoint x="840" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDJ-C9gQJ7URhf7bpNq9-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EDJ-C9gQJ7URhf7bpNq9-16" target="EDJ-C9gQJ7URhf7bpNq9-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EDJ-C9gQJ7URhf7bpNq9-16" value="在中间指针和右指针&lt;br&gt;之间继续两两分组" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="578" y="320" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EDJ-C9gQJ7URhf7bpNq9-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EDJ-C9gQJ7URhf7bpNq9-17" target="EDJ-C9gQJ7URhf7bpNq9-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="340" />
+              <mxPoint x="390" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDJ-C9gQJ7URhf7bpNq9-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EDJ-C9gQJ7URhf7bpNq9-17" target="EDJ-C9gQJ7URhf7bpNq9-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EDJ-C9gQJ7URhf7bpNq9-17" value="在左指针和中间指针之间继续两两分组" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="403" y="320" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EDJ-C9gQJ7URhf7bpNq9-18" value="合并两两分组的链表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="488" y="420" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EDJ-C9gQJ7URhf7bpNq9-19" value="合并两两分组的链表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="420" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
