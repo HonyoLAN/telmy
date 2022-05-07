@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-07T03:32:06.774Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="68oQyp_0giJiqhqP3oU1" version="18.0.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-05-07T03:52:17.656Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="GHCJCIkM8EK3M4h0PIQt" version="18.0.1" type="github" pages="4">
   <diagram id="FW3BfJ-pZU4DDBVMpS15" name="全排列">
-    <mxGraphModel dx="852" dy="317" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="512" dy="413" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -141,7 +141,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qas5ze-eFR2vz1IoCG_s" name="合并K个升序链表">
-    <mxGraphModel dx="943" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="512" dy="413" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -298,7 +298,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="L5AklEkJWqYB_PSuWv0B" name="环形链表 II">
-    <mxGraphModel dx="589" dy="341" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="423" dy="341" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -398,7 +398,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="85X23avTgg4OURXEf4jW" name="字符串相加">
-    <mxGraphModel dx="539" dy="262" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="423" dy="341" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -416,41 +416,68 @@
         <mxCell id="js0GDBJ_tkTT66PrVaQ7-2" value="初始化&lt;br&gt;StringBuilder res&lt;br&gt;s1的指针 i = s1.len - 1&lt;br&gt;s2的指针 j = s2.len - 1&lt;br&gt;进位标志carry" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="70" y="20" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="js0GDBJ_tkTT66PrVaQ7-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="js0GDBJ_tkTT66PrVaQ7-3" target="js0GDBJ_tkTT66PrVaQ7-8">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="js0GDBJ_tkTT66PrVaQ7-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="js0GDBJ_tkTT66PrVaQ7-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="265" y="249" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="js0GDBJ_tkTT66PrVaQ7-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="js0GDBJ_tkTT66PrVaQ7-3" target="js0GDBJ_tkTT66PrVaQ7-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="js0GDBJ_tkTT66PrVaQ7-3" value="i &amp;gt;= 0 &amp;amp;&amp;amp; j &amp;gt;= 0?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+        <mxCell id="js0GDBJ_tkTT66PrVaQ7-3" value="i &amp;gt;= 0 || j &amp;gt;= 0?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="209" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="js0GDBJ_tkTT66PrVaQ7-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="js0GDBJ_tkTT66PrVaQ7-5" target="js0GDBJ_tkTT66PrVaQ7-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="js0GDBJ_tkTT66PrVaQ7-5" value="分别取出s1和s2当前的数字" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="js0GDBJ_tkTT66PrVaQ7-5" value="分别取出s1和s2当前的数字&lt;br&gt;如果指针已经小于0，返回0" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="60" y="320" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="js0GDBJ_tkTT66PrVaQ7-6" value="计算s1,s2,carry的和" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="60" y="390" width="150" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="js0GDBJ_tkTT66PrVaQ7-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="js0GDBJ_tkTT66PrVaQ7-7" target="js0GDBJ_tkTT66PrVaQ7-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="js0GDBJ_tkTT66PrVaQ7-7" value="更新carry 与 res" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="60" y="460" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="js0GDBJ_tkTT66PrVaQ7-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="js0GDBJ_tkTT66PrVaQ7-8" target="js0GDBJ_tkTT66PrVaQ7-9">
+        <mxCell id="js0GDBJ_tkTT66PrVaQ7-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="js0GDBJ_tkTT66PrVaQ7-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="335" y="287" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="js0GDBJ_tkTT66PrVaQ7-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="js0GDBJ_tkTT66PrVaQ7-10" target="js0GDBJ_tkTT66PrVaQ7-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="js0GDBJ_tkTT66PrVaQ7-8" value="将剩下的字符串与carry合并" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="265" y="234" width="150" height="30" as="geometry" />
+        <mxCell id="js0GDBJ_tkTT66PrVaQ7-10" value="carry与res合并" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="255" y="327" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="js0GDBJ_tkTT66PrVaQ7-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="js0GDBJ_tkTT66PrVaQ7-9" target="js0GDBJ_tkTT66PrVaQ7-10">
+        <mxCell id="js0GDBJ_tkTT66PrVaQ7-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="js0GDBJ_tkTT66PrVaQ7-18" target="js0GDBJ_tkTT66PrVaQ7-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="30" y="545" />
+              <mxPoint x="30" y="249" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="js0GDBJ_tkTT66PrVaQ7-18" value="更新 i , j" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="60" y="530" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="js0GDBJ_tkTT66PrVaQ7-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="js0GDBJ_tkTT66PrVaQ7-21" target="js0GDBJ_tkTT66PrVaQ7-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="js0GDBJ_tkTT66PrVaQ7-9" value="将合并后的字符串与res合并" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="260" y="320" width="160" height="30" as="geometry" />
+        <mxCell id="js0GDBJ_tkTT66PrVaQ7-21" value="carry == 1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="209" width="150" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="js0GDBJ_tkTT66PrVaQ7-10" value="返回res" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="260" y="390" width="160" height="30" as="geometry" />
+        <mxCell id="js0GDBJ_tkTT66PrVaQ7-22" value="返回res的逆序字符串" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="255" y="400" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="js0GDBJ_tkTT66PrVaQ7-25" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="144" y="289" width="26" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="js0GDBJ_tkTT66PrVaQ7-26" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="299" width="26" height="21" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
