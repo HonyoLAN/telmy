@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-26T13:12:52.659Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="WWgLS7vPpgSKbM8d0vco" version="17.4.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-05-10T12:32:37.540Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="WxbgyNW6_ZK5Ssyxk0MS" version="18.0.1" type="github" pages="4">
   <diagram id="q-ANHGBc3iWFSovor3je" name="TransportServer">
-    <mxGraphModel dx="491" dy="413" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -157,17 +157,17 @@
         <mxCell id="3IAMp_L_kuW9Ju3ecMRI-2" value="&lt;pre&gt;&lt;font face=&quot;jetbrains mono&quot;&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;根据传入的接口和方法&lt;br&gt;封装方法的信息&lt;br/&gt;包括：类名，方法名，&lt;br/&gt;返回类型，参数类型&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;align=left;" parent="1" vertex="1">
           <mxGeometry x="779" y="1137" width="151" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="R3XhCUPhmNwW3Nw-isID-1" value="ServiceManager类似于注册中心，负责方法的注册与查找" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;align=left;" vertex="1" parent="1">
+        <mxCell id="R3XhCUPhmNwW3Nw-isID-1" value="ServiceManager类似于注册中心，负责方法的注册与查找" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;align=left;" parent="1" vertex="1">
           <mxGeometry y="545" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="R3XhCUPhmNwW3Nw-isID-2" value="通过反射实现了invoke方法。&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;method.&lt;br&gt;invoke(obj, args)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;align=left;" vertex="1" parent="1">
+        <mxCell id="R3XhCUPhmNwW3Nw-isID-2" value="通过反射实现了invoke方法。&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;method.&lt;br&gt;invoke(obj, args)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;align=left;" parent="1" vertex="1">
           <mxGeometry y="630" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="DVjT0W08BS4ew8Y2O3mc" name="HttpTransportServer.init">
-    <mxGraphModel dx="614" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -190,111 +190,137 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tK_ps6AoVgydBe05UDys" name="Client">
-    <mxGraphModel dx="488" dy="295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="JgLNaVSN7_haCttT5ZK4-1" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;fillColor=none;dashed=1;strokeWidth=3;" vertex="1" parent="1">
+        <mxCell id="JgLNaVSN7_haCttT5ZK4-1" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;fillColor=none;dashed=1;strokeWidth=3;" parent="1" vertex="1">
           <mxGeometry x="169" y="340" width="240" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="JgLNaVSN7_haCttT5ZK4-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="JgLNaVSN7_haCttT5ZK4-3" target="JgLNaVSN7_haCttT5ZK4-6">
+        <mxCell id="JgLNaVSN7_haCttT5ZK4-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="JgLNaVSN7_haCttT5ZK4-3" target="JgLNaVSN7_haCttT5ZK4-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JgLNaVSN7_haCttT5ZK4-3" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;传入参数&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="JgLNaVSN7_haCttT5ZK4-3" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;传入参数&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="205" y="160" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JgLNaVSN7_haCttT5ZK4-4" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;RpcClient 构造函数&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="JgLNaVSN7_haCttT5ZK4-4" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;RpcClient 构造函数&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="205" y="120" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="JgLNaVSN7_haCttT5ZK4-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="JgLNaVSN7_haCttT5ZK4-6" target="JgLNaVSN7_haCttT5ZK4-8">
+        <mxCell id="JgLNaVSN7_haCttT5ZK4-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="JgLNaVSN7_haCttT5ZK4-6" target="JgLNaVSN7_haCttT5ZK4-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JgLNaVSN7_haCttT5ZK4-6" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;路由选择器初始化&lt;br/&gt;建立连接池，每个Server几个连接&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="JgLNaVSN7_haCttT5ZK4-6" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;路由选择器初始化&lt;br/&gt;建立连接池，每个Server几个连接&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="180" y="252" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JgLNaVSN7_haCttT5ZK4-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="JgLNaVSN7_haCttT5ZK4-8" target="JgLNaVSN7_haCttT5ZK4-10">
+        <mxCell id="JgLNaVSN7_haCttT5ZK4-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="JgLNaVSN7_haCttT5ZK4-8" target="JgLNaVSN7_haCttT5ZK4-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JgLNaVSN7_haCttT5ZK4-8" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;把服务端的信息直接&lt;br/&gt;写进client&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="JgLNaVSN7_haCttT5ZK4-8" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;把服务端的信息直接&lt;br/&gt;写进client&lt;/pre&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="205" y="347" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JgLNaVSN7_haCttT5ZK4-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="JgLNaVSN7_haCttT5ZK4-10" target="JgLNaVSN7_haCttT5ZK4-12">
+        <mxCell id="JgLNaVSN7_haCttT5ZK4-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="JgLNaVSN7_haCttT5ZK4-10" target="JgLNaVSN7_haCttT5ZK4-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JgLNaVSN7_haCttT5ZK4-10" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;动态代理&lt;br/&gt;Proxy.newProxyInstance&lt;br/&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="JgLNaVSN7_haCttT5ZK4-10" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;动态代理&lt;br/&gt;Proxy.newProxyInstance&lt;br/&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="205" y="442" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JgLNaVSN7_haCttT5ZK4-12" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;使用代理对象调用接口&lt;br/&gt;中的方法&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="JgLNaVSN7_haCttT5ZK4-12" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;使用代理对象调用接口&lt;br/&gt;中的方法&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="205" y="539" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JgLNaVSN7_haCttT5ZK4-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="JgLNaVSN7_haCttT5ZK4-14" target="JgLNaVSN7_haCttT5ZK4-16">
+        <mxCell id="JgLNaVSN7_haCttT5ZK4-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="JgLNaVSN7_haCttT5ZK4-14" target="JgLNaVSN7_haCttT5ZK4-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JgLNaVSN7_haCttT5ZK4-14" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;初始化一个RemoteInvoker实例&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="JgLNaVSN7_haCttT5ZK4-14" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;初始化一个RemoteInvoker实例&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="596" y="440" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JgLNaVSN7_haCttT5ZK4-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="JgLNaVSN7_haCttT5ZK4-16" target="JgLNaVSN7_haCttT5ZK4-18">
+        <mxCell id="JgLNaVSN7_haCttT5ZK4-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="JgLNaVSN7_haCttT5ZK4-16" target="JgLNaVSN7_haCttT5ZK4-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JgLNaVSN7_haCttT5ZK4-16" value="&lt;pre&gt;&lt;font face=&quot;jetbrains mono&quot;&gt;&lt;span style=&quot;font-size: 9.8pt&quot;&gt;代理对象执行代理方法时，调用&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;RemoteInvoker的invoke方法&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="JgLNaVSN7_haCttT5ZK4-16" value="&lt;pre&gt;&lt;font face=&quot;jetbrains mono&quot;&gt;&lt;span style=&quot;font-size: 9.8pt&quot;&gt;代理对象执行代理方法时，调用&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px&quot;&gt;RemoteInvoker的invoke方法&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt&quot;&gt;&lt;br/&gt;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="596" y="534" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JgLNaVSN7_haCttT5ZK4-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="JgLNaVSN7_haCttT5ZK4-18" target="JgLNaVSN7_haCttT5ZK4-20">
+        <mxCell id="JgLNaVSN7_haCttT5ZK4-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="JgLNaVSN7_haCttT5ZK4-18" target="JgLNaVSN7_haCttT5ZK4-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JgLNaVSN7_haCttT5ZK4-18" value="创建Request" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="JgLNaVSN7_haCttT5ZK4-18" value="创建Request" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="596" y="632" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JgLNaVSN7_haCttT5ZK4-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="JgLNaVSN7_haCttT5ZK4-20" target="JgLNaVSN7_haCttT5ZK4-21">
+        <mxCell id="JgLNaVSN7_haCttT5ZK4-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="1" source="JgLNaVSN7_haCttT5ZK4-20" target="JgLNaVSN7_haCttT5ZK4-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JgLNaVSN7_haCttT5ZK4-20" value="根据接口与方法名创建ServiceDescriptor" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="JgLNaVSN7_haCttT5ZK4-20" value="根据接口与方法名创建ServiceDescriptor" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="596" y="729" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_cJRhxGbszn84g1a0AtK-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JgLNaVSN7_haCttT5ZK4-21" target="_cJRhxGbszn84g1a0AtK-5">
+        <mxCell id="_cJRhxGbszn84g1a0AtK-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="JgLNaVSN7_haCttT5ZK4-21" target="_cJRhxGbszn84g1a0AtK-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JgLNaVSN7_haCttT5ZK4-21" value="Request封装ServiceDescriptor与&lt;br&gt;请求的参数" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="JgLNaVSN7_haCttT5ZK4-21" value="Request封装ServiceDescriptor与&lt;br&gt;请求的参数" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="596" y="827" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JgLNaVSN7_haCttT5ZK4-22" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;这里没有实现注册中心，&lt;br/&gt;直接将把服务端的信息直接写死进client，&lt;br/&gt;然后直接去调用rpc server&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="JgLNaVSN7_haCttT5ZK4-22" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;这里没有实现注册中心，&lt;br/&gt;直接将把服务端的信息直接写死进client，&lt;br/&gt;然后直接去调用rpc server&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="162" y="36" width="244" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-k0S6gf2rk7hPYH7BfN5-1" value="具体包括：&lt;br&gt;&lt;span&gt;	&lt;/span&gt;client的实现类型&lt;br&gt;&lt;span&gt;	&lt;/span&gt;序列化类型&lt;br&gt;反序列化类型&lt;br&gt;路由选择策略&lt;br&gt;和server之间的连接数&lt;br&gt;server的地址及端口" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;align=left;" vertex="1" parent="1">
+        <mxCell id="-k0S6gf2rk7hPYH7BfN5-1" value="具体包括：&lt;br&gt;&lt;span&gt; &lt;/span&gt;client的实现类型&lt;br&gt;&lt;span&gt; &lt;/span&gt;序列化类型&lt;br&gt;反序列化类型&lt;br&gt;路由选择策略&lt;br&gt;和server之间的连接数&lt;br&gt;server的地址及端口" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;align=left;" parent="1" vertex="1">
           <mxGeometry x="60" y="135" width="120" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="_cJRhxGbszn84g1a0AtK-1" value="加载代理对象的类加载器&lt;br&gt;动态代理需要实现的接口&lt;br&gt;动态代理方法的实现" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;align=left;" vertex="1" parent="1">
+        <mxCell id="_cJRhxGbszn84g1a0AtK-1" value="加载代理对象的类加载器&lt;br&gt;动态代理需要实现的接口&lt;br&gt;动态代理方法的实现" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;align=left;" parent="1" vertex="1">
           <mxGeometry x="20" y="440" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_cJRhxGbszn84g1a0AtK-2" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;RemoteInvoker&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="_cJRhxGbszn84g1a0AtK-2" value="&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; ; font-size: 9.8pt&quot;&gt;RemoteInvoker&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="621" y="400" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_cJRhxGbszn84g1a0AtK-3" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;动态代理方法的实现&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_cJRhxGbszn84g1a0AtK-3" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;动态代理方法的实现&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="642" y="379" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_cJRhxGbszn84g1a0AtK-4" value="接口&lt;br&gt;编码器&lt;br&gt;解码器&lt;br&gt;连接池" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;align=left;" vertex="1" parent="1">
+        <mxCell id="_cJRhxGbszn84g1a0AtK-4" value="接口&lt;br&gt;编码器&lt;br&gt;解码器&lt;br&gt;连接池" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;align=left;" parent="1" vertex="1">
           <mxGeometry x="500" y="440" width="70" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_cJRhxGbszn84g1a0AtK-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_cJRhxGbszn84g1a0AtK-5" target="_cJRhxGbszn84g1a0AtK-7">
+        <mxCell id="_cJRhxGbszn84g1a0AtK-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_cJRhxGbszn84g1a0AtK-5" target="_cJRhxGbszn84g1a0AtK-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_cJRhxGbszn84g1a0AtK-5" value="通过invokeRemote处理Request请求" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="_cJRhxGbszn84g1a0AtK-5" value="通过invokeRemote处理Request请求" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="596" y="921" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_cJRhxGbszn84g1a0AtK-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_cJRhxGbszn84g1a0AtK-7" target="_cJRhxGbszn84g1a0AtK-9">
+        <mxCell id="_cJRhxGbszn84g1a0AtK-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_cJRhxGbszn84g1a0AtK-7" target="_cJRhxGbszn84g1a0AtK-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_cJRhxGbszn84g1a0AtK-7" value="将Request请求编码然后write" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="_cJRhxGbszn84g1a0AtK-7" value="将Request请求编码然后write" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="596" y="1020" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_cJRhxGbszn84g1a0AtK-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_cJRhxGbszn84g1a0AtK-9" target="_cJRhxGbszn84g1a0AtK-11">
+        <mxCell id="_cJRhxGbszn84g1a0AtK-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_cJRhxGbszn84g1a0AtK-9" target="_cJRhxGbszn84g1a0AtK-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_cJRhxGbszn84g1a0AtK-9" value="等待Response传回，接收响应，解码" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="_cJRhxGbszn84g1a0AtK-9" value="等待Response传回，接收响应，解码" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="596" y="1121" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_cJRhxGbszn84g1a0AtK-11" value="检验response是否合法" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="_cJRhxGbszn84g1a0AtK-11" value="检验response是否合法" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="596" y="1231" width="210" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="b2-VTwka37yH0xH0GId7" name="注册多个服务">
+    <mxGraphModel dx="782" dy="380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vMY3L4cuPJXJ0YVfwJRS-1" value="定义通用接口" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="96" y="30" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vMY3L4cuPJXJ0YVfwJRS-2" value="API包" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vMY3L4cuPJXJ0YVfwJRS-3" value="server中实现通用接口" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="96" y="100" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vMY3L4cuPJXJ0YVfwJRS-4" value="server包" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vMY3L4cuPJXJ0YVfwJRS-5" value="定义通信协议&lt;br&gt;RpcRequest&lt;br&gt;RpcResponse" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="96" y="170" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vMY3L4cuPJXJ0YVfwJRS-6" value="common包" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5" y="180" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
