@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T12:50:52.674Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="DzrjcT-Ivulm2b2nPjgD" version="18.0.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-05-10T12:52:37.667Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="ZHqHdeY87s7DTJ-DgUiY" version="18.0.1" type="github" pages="5">
   <diagram id="q-ANHGBc3iWFSovor3je" name="TransportServer">
     <mxGraphModel dx="782" dy="380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -479,6 +479,9 @@
         </mxCell>
         <mxCell id="uWmEa-eKcB2mFeJ_P5f9-29" value="core包" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="420" y="30" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uWmEa-eKcB2mFeJ_P5f9-30" value="注册key:服务名&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;value:实例&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="490" y="110" width="140" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
