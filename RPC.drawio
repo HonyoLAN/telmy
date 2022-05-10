@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T12:38:14.206Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="rNRZ0nAdMR7KbHvzQ1kt" version="18.0.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-05-10T12:45:00.752Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="KYU27EdgOWhOZBybfmj1" version="18.0.1" type="github" pages="4">
   <diagram id="q-ANHGBc3iWFSovor3je" name="TransportServer">
     <mxGraphModel dx="782" dy="380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -300,21 +300,30 @@
     </mxGraphModel>
   </diagram>
   <diagram id="b2-VTwka37yH0xH0GId7" name="注册多个服务">
-    <mxGraphModel dx="782" dy="380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="447" dy="217" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vMY3L4cuPJXJ0YVfwJRS-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vMY3L4cuPJXJ0YVfwJRS-1" target="vMY3L4cuPJXJ0YVfwJRS-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vMY3L4cuPJXJ0YVfwJRS-1" value="定义通用接口" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="96" y="30" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vMY3L4cuPJXJ0YVfwJRS-2" value="API包" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="10" y="30" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="vMY3L4cuPJXJ0YVfwJRS-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vMY3L4cuPJXJ0YVfwJRS-3" target="vMY3L4cuPJXJ0YVfwJRS-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vMY3L4cuPJXJ0YVfwJRS-3" value="server中实现通用接口" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="96" y="100" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vMY3L4cuPJXJ0YVfwJRS-4" value="server包" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="10" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vMY3L4cuPJXJ0YVfwJRS-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vMY3L4cuPJXJ0YVfwJRS-5" target="vMY3L4cuPJXJ0YVfwJRS-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vMY3L4cuPJXJ0YVfwJRS-5" value="定义通信协议&lt;br&gt;RpcRequest&lt;br&gt;RpcResponse" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="96" y="170" width="120" height="50" as="geometry" />
@@ -325,17 +334,50 @@
         <mxCell id="vMY3L4cuPJXJ0YVfwJRS-7" value="RpcRequest的四个参数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="170" width="140" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="vMY3L4cuPJXJ0YVfwJRS-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vMY3L4cuPJXJ0YVfwJRS-8" target="vMY3L4cuPJXJ0YVfwJRS-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vMY3L4cuPJXJ0YVfwJRS-8" value="定义RpcClient&lt;br&gt;初始化，发射获得实例&lt;br&gt;invoke方法" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="90" y="260" width="140" height="50" as="geometry" />
+          <mxGeometry x="86" y="260" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="vMY3L4cuPJXJ0YVfwJRS-9" value="core包" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="5" y="270" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vMY3L4cuPJXJ0YVfwJRS-10" value="创建RpcRequest对象&lt;br&gt;rpcClient对象发送与接收信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="90" y="350" width="140" height="50" as="geometry" />
+          <mxGeometry x="86" y="350" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="vMY3L4cuPJXJ0YVfwJRS-11" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;invoke()方法&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="10" y="360" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vMY3L4cuPJXJ0YVfwJRS-12" value="普通序列化方式" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="350" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vMY3L4cuPJXJ0YVfwJRS-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vMY3L4cuPJXJ0YVfwJRS-13" target="vMY3L4cuPJXJ0YVfwJRS-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vMY3L4cuPJXJ0YVfwJRS-13" value="初始化一个RpcServer&lt;br&gt;新建一个线程池" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="480" y="350" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vMY3L4cuPJXJ0YVfwJRS-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vMY3L4cuPJXJ0YVfwJRS-15" target="vMY3L4cuPJXJ0YVfwJRS-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vMY3L4cuPJXJ0YVfwJRS-15" value="将通用接口实例注册到&lt;br&gt;rpcServer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="480" y="440" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vMY3L4cuPJXJ0YVfwJRS-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vMY3L4cuPJXJ0YVfwJRS-16" target="vMY3L4cuPJXJ0YVfwJRS-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vMY3L4cuPJXJ0YVfwJRS-16" value="注册后，主线程检测socketl连接" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="480" y="535" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vMY3L4cuPJXJ0YVfwJRS-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vMY3L4cuPJXJ0YVfwJRS-17" target="vMY3L4cuPJXJ0YVfwJRS-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vMY3L4cuPJXJ0YVfwJRS-17" value="发现客户端连接后，新建线程处理，run()方法" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="480" y="630" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vMY3L4cuPJXJ0YVfwJRS-18" value="接收，解析&lt;br&gt;调用，返回信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="480" y="720" width="140" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
