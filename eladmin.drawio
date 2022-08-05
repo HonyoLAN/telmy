@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-05T15:02:36.328Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="yzdmA12YTjNtKtbLEF04" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-05T15:02:46.545Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Qabchr0quDZNmsLrAr3I" version="20.2.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="修改角色菜单">
-    <mxGraphModel dx="827" dy="429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="914" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -112,7 +112,7 @@
           <mxGeometry x="1431" y="700" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wtTNcSMter86V7uV38JC-28" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;;font-size:10.5pt;&quot;&gt;&lt;span style=&quot;color:#871094;&quot;&gt;redisUtils&lt;/span&gt;.delByKeys(&lt;span style=&quot;color:#000000;&quot;&gt;CacheKey&lt;/span&gt;.&lt;span style=&quot;color:#871094;font-style:italic;&quot;&gt;DATA_USER&lt;/span&gt;, &lt;span style=&quot;color:#000000;&quot;&gt;userIds&lt;/span&gt;);&lt;br&gt;&lt;span style=&quot;color:#871094;&quot;&gt;redisUtils&lt;/span&gt;.delByKeys(&lt;span style=&quot;color:#000000;&quot;&gt;CacheKey&lt;/span&gt;.&lt;span style=&quot;color:#871094;font-style:italic;&quot;&gt;MENU_USER&lt;/span&gt;, &lt;span style=&quot;color:#000000;&quot;&gt;userIds&lt;/span&gt;);&lt;br&gt;&lt;span style=&quot;color:#871094;&quot;&gt;redisUtils&lt;/span&gt;.delByKeys(&lt;span style=&quot;color:#000000;&quot;&gt;CacheKey&lt;/span&gt;.&lt;span style=&quot;color:#871094;font-style:italic;&quot;&gt;ROLE_AUTH&lt;/span&gt;, &lt;span style=&quot;color:#000000;&quot;&gt;userIds&lt;/span&gt;);&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="791" y="830" width="390" height="100" as="geometry" />
+          <mxGeometry x="901" y="890" width="390" height="100" as="geometry" />
         </mxCell>
         <mxCell id="wtTNcSMter86V7uV38JC-29" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;;font-size:10.5pt;&quot;&gt;&lt;span style=&quot;color:#871094;&quot;&gt;redisUtils&lt;/span&gt;.del(&lt;span style=&quot;color:#000000;&quot;&gt;CacheKey&lt;/span&gt;.&lt;span style=&quot;color:#871094;font-style:italic;&quot;&gt;ROLE_ID &lt;/span&gt;+ id);&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1127" y="1040" width="290" height="70" as="geometry" />
