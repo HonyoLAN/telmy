@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-05T15:03:48.838Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="zx4zPYhukH4FyQkdX0g5" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-05T15:04:20.952Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="DhAMwXZvoKwZSS9djm79" version="20.2.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="修改角色菜单">
     <mxGraphModel dx="526" dy="273" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -92,6 +92,11 @@
         </mxCell>
         <mxCell id="wtTNcSMter86V7uV38JC-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="wtTNcSMter86V7uV38JC-22" target="wtTNcSMter86V7uV38JC-26">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wtTNcSMter86V7uV38JC-36" value="No" style="edgeLabel;html=1;align=right;verticalAlign=middle;resizable=0;points=[];fontSize=11;labelPosition=left;verticalLabelPosition=middle;" vertex="1" connectable="0" parent="wtTNcSMter86V7uV38JC-30">
+          <mxGeometry x="-0.2414" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="wtTNcSMter86V7uV38JC-22" value="&lt;pre style=&quot;color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;; font-size: 11px;&quot;&gt;users == null&lt;/pre&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1181" y="720" width="180" height="80" as="geometry" />
