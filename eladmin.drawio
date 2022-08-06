@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-06T14:41:58.146Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="gVVtHkkBobH5DMspIuBg" version="20.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-06T14:58:24.413Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="p2A59NVWvKf_CJeiEjAL" version="20.2.3" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="修改角色菜单">
     <mxGraphModel dx="1260" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -129,21 +129,98 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LGzo4hBN0ot-i3var8vC" name="获取前端所需菜单">
-    <mxGraphModel dx="1050" dy="433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="869" dy="358" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UMp6A1nBuQPRcuFeXMy4-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UMp6A1nBuQPRcuFeXMy4-1" target="UMp6A1nBuQPRcuFeXMy4-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="UMp6A1nBuQPRcuFeXMy4-1" value="根据当前用户ID查询其相关的菜单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="30" width="200" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="UMp6A1nBuQPRcuFeXMy4-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UMp6A1nBuQPRcuFeXMy4-2" target="UMp6A1nBuQPRcuFeXMy4-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="UMp6A1nBuQPRcuFeXMy4-2" value="根据当前用户ID查询其所有的角色" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="30" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UMp6A1nBuQPRcuFeXMy4-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UMp6A1nBuQPRcuFeXMy4-3" target="UMp6A1nBuQPRcuFeXMy4-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UMp6A1nBuQPRcuFeXMy4-3" value="根据当前用户的所有角色ID查询其对应的所有目录和菜单，以Dto的方式返回" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="140" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UMp6A1nBuQPRcuFeXMy4-4" value="返回的所有菜单与目录转换为树" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="270" width="200" height="60" as="geometry" />
+          <mxGeometry x="80" y="270" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UMp6A1nBuQPRcuFeXMy4-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UMp6A1nBuQPRcuFeXMy4-7" target="UMp6A1nBuQPRcuFeXMy4-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UMp6A1nBuQPRcuFeXMy4-7" value="新建一个ArrayList作为树&lt;br&gt;新建一个HashSet存储xxid" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="270" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UMp6A1nBuQPRcuFeXMy4-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UMp6A1nBuQPRcuFeXMy4-8" target="UMp6A1nBuQPRcuFeXMy4-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UMp6A1nBuQPRcuFeXMy4-8" value="遍历返回的所有菜单与目录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="380" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UMp6A1nBuQPRcuFeXMy4-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UMp6A1nBuQPRcuFeXMy4-10" target="UMp6A1nBuQPRcuFeXMy4-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UMp6A1nBuQPRcuFeXMy4-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UMp6A1nBuQPRcuFeXMy4-10" target="UMp6A1nBuQPRcuFeXMy4-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UMp6A1nBuQPRcuFeXMy4-10" value="当前元素var0的pid == null?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="505" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UMp6A1nBuQPRcuFeXMy4-11" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;;font-size:10.5pt;&quot;&gt;trees.add(&lt;span style=&quot;color:#000000;&quot;&gt;menuDTO&lt;/span&gt;)&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="623" y="515" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UMp6A1nBuQPRcuFeXMy4-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UMp6A1nBuQPRcuFeXMy4-12" target="UMp6A1nBuQPRcuFeXMy4-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UMp6A1nBuQPRcuFeXMy4-12" value="对于当前元素var0&lt;br&gt;遍历返回的所有菜单与目录var1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="641" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UMp6A1nBuQPRcuFeXMy4-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UMp6A1nBuQPRcuFeXMy4-13" target="UMp6A1nBuQPRcuFeXMy4-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="800" />
+              <mxPoint x="650" y="671" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UMp6A1nBuQPRcuFeXMy4-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UMp6A1nBuQPRcuFeXMy4-13" target="UMp6A1nBuQPRcuFeXMy4-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UMp6A1nBuQPRcuFeXMy4-13" value="var0的id == var1pid" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="760" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UMp6A1nBuQPRcuFeXMy4-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UMp6A1nBuQPRcuFeXMy4-16" target="UMp6A1nBuQPRcuFeXMy4-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UMp6A1nBuQPRcuFeXMy4-16" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;;font-size:10.5pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;menuDTO&lt;/span&gt;.getChildren().add(&lt;span style=&quot;color:#000000;&quot;&gt;it&lt;/span&gt;);&lt;br/&gt;ids.add(it.getId());&lt;br/&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="880" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UMp6A1nBuQPRcuFeXMy4-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UMp6A1nBuQPRcuFeXMy4-18" target="UMp6A1nBuQPRcuFeXMy4-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UMp6A1nBuQPRcuFeXMy4-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UMp6A1nBuQPRcuFeXMy4-18" target="UMp6A1nBuQPRcuFeXMy4-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UMp6A1nBuQPRcuFeXMy4-18" value="trees为空吗？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="981" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UMp6A1nBuQPRcuFeXMy4-19" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;; font-size: 10.5pt;&quot;&gt;返回trees&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="1105" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UMp6A1nBuQPRcuFeXMy4-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UMp6A1nBuQPRcuFeXMy4-20" target="UMp6A1nBuQPRcuFeXMy4-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UMp6A1nBuQPRcuFeXMy4-20" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;; font-size: 10.5pt;&quot;&gt;ids中没有id的元素放到trees&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="613" y="991" width="210" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
