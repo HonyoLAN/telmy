@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-07T03:05:26.022Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="G4378m-c7LC3krinBb43" version="20.2.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-08-07T03:07:48.116Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="qV8e3o_oiR6ofj9nZSsz" version="20.2.3" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="修改角色菜单">
     <mxGraphModel dx="1260" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -276,7 +276,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wEMExkU6HpXX5PMNggDl" name="根据菜单ID返回所有子节点ID，包含自身ID">
-    <mxGraphModel dx="1260" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1482" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -367,6 +367,9 @@
         </mxCell>
         <mxCell id="Iaviom0MoEcV2lFTRNSZ-29" value="返回Set" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="987" y="640" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Iaviom0MoEcV2lFTRNSZ-31" value="将Set中的所有Menu的id取出&lt;br&gt;并转为Set" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="100" y="640" width="180" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
