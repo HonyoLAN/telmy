@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-07T07:45:24.894Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="hRdWt5ucCV3K0_gNjmeU" version="20.2.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-08-07T08:28:42.042Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="HFViZZby_jazyIA7hpUT" version="20.2.3" type="github" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="修改角色菜单">
     <mxGraphModel dx="1020" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -386,7 +386,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="fGGHxLbkVZLS8d-VRTRo" name="查询菜单:根据ID获取同级与上级数据">
-    <mxGraphModel dx="850" dy="433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="583" dy="297" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -472,6 +472,9 @@
         </mxCell>
         <mxCell id="Xxd7pqtIsW_n06vHrc7B-5" value="传入父menuDto与menus&lt;br&gt;递归" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="380" y="960" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Xxd7pqtIsW_n06vHrc7B-12" value="每一个id返回一个ArrayList&lt;br&gt;存放了包含该菜单同层直到根菜单的所有菜单" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="50" y="960" width="180" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
