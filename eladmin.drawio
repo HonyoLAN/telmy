@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-07T09:10:09.276Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="UZgsCIUiisV8nfIH34v-" version="20.2.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-08-07T09:11:58.160Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="LB7wJB4dNi7uaXF1zqRu" version="20.2.3" type="github" pages="7">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="修改角色菜单">
     <mxGraphModel dx="1020" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -151,6 +151,9 @@
         <mxCell id="UMp6A1nBuQPRcuFeXMy4-3" value="根据当前用户的所有角色ID查询其对应的所有目录和菜单，以Dto的方式返回" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="360" y="140" width="200" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="OySmkEPEAljEdW5KwzCq-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UMp6A1nBuQPRcuFeXMy4-4" target="OySmkEPEAljEdW5KwzCq-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="UMp6A1nBuQPRcuFeXMy4-4" value="返回的所有菜单与目录转换为树&lt;br&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;List&amp;lt;MenuDto&amp;gt; menuDtos&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="80" y="270" width="200" height="60" as="geometry" />
         </mxCell>
@@ -222,8 +225,8 @@
         <mxCell id="UMp6A1nBuQPRcuFeXMy4-20" value="&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;; font-size: 10.5pt;&quot;&gt;ids中没有id的元素放到trees&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="613" y="991" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OySmkEPEAljEdW5KwzCq-1" value="将返回的trees构建成树" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="60" y="1105" width="200" height="60" as="geometry" />
+        <mxCell id="OySmkEPEAljEdW5KwzCq-1" value="将返回的trees构建成树&lt;br&gt;buildMenus" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="79" y="1200" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
