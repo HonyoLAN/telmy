@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-07T09:11:58.160Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="LB7wJB4dNi7uaXF1zqRu" version="20.2.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-08-07T09:14:50.945Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="j90WU750KqBGlg6CsMNm" version="20.2.3" type="github" pages="7">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="修改角色菜单">
     <mxGraphModel dx="1020" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -129,7 +129,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LGzo4hBN0ot-i3var8vC" name="获取前端所需菜单">
-    <mxGraphModel dx="1200" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1020" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -227,6 +227,12 @@
         </mxCell>
         <mxCell id="OySmkEPEAljEdW5KwzCq-1" value="将返回的trees构建成树&lt;br&gt;buildMenus" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="79" y="1200" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OySmkEPEAljEdW5KwzCq-3" value="返回值类型为List&amp;lt;MenuVo&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="72" y="1290" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OySmkEPEAljEdW5KwzCq-4" value="参数类型为List&amp;lt;MenuDto&amp;gt; menuDtos" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="62" y="1320" width="209" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
