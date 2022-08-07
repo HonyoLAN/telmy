@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-07T09:04:36.588Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="vzp_455IjdC2NXRZdpNB" version="20.2.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-08-07T09:04:50.312Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="pIrhr86nM_O0RfZcppJd" version="20.2.3" type="github" pages="7">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="修改角色菜单">
     <mxGraphModel dx="1020" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -499,6 +499,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ru_TpKnk7RJhgwUAjnYI-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ru_TpKnk7RJhgwUAjnYI-1" target="ru_TpKnk7RJhgwUAjnYI-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ru_TpKnk7RJhgwUAjnYI-1" value="新建菜单传入的参数不能有ID" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="120" y="80" width="170" height="60" as="geometry" />
         </mxCell>
@@ -508,17 +511,32 @@
         <mxCell id="ru_TpKnk7RJhgwUAjnYI-3" value="新建菜单传入的参数不能有ID" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="120" y="180" width="170" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="ru_TpKnk7RJhgwUAjnYI-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ru_TpKnk7RJhgwUAjnYI-4" target="ru_TpKnk7RJhgwUAjnYI-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ru_TpKnk7RJhgwUAjnYI-4" value="新建Menu&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="400" y="180" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ru_TpKnk7RJhgwUAjnYI-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ru_TpKnk7RJhgwUAjnYI-5" target="ru_TpKnk7RJhgwUAjnYI-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ru_TpKnk7RJhgwUAjnYI-5" value="验证菜单标题是否已存在？" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="400" y="288" width="170" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="ru_TpKnk7RJhgwUAjnYI-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ru_TpKnk7RJhgwUAjnYI-6" target="ru_TpKnk7RJhgwUAjnYI-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ru_TpKnk7RJhgwUAjnYI-6" value="如果要定义组件&lt;br&gt;该组件名不能已存在" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="400" y="396" width="170" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="ru_TpKnk7RJhgwUAjnYI-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ru_TpKnk7RJhgwUAjnYI-7" target="ru_TpKnk7RJhgwUAjnYI-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ru_TpKnk7RJhgwUAjnYI-7" value="如果要定义父菜单的id=0&lt;br&gt;设置其pid=null" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="400" y="504" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ru_TpKnk7RJhgwUAjnYI-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ru_TpKnk7RJhgwUAjnYI-8" target="ru_TpKnk7RJhgwUAjnYI-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ru_TpKnk7RJhgwUAjnYI-8" value="如果要定义父菜单的id=0&lt;br&gt;设置其pid=null" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="400" y="612" width="170" height="60" as="geometry" />
