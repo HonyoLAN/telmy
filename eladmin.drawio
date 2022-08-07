@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-07T08:31:14.761Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="LpSmPi8RfyZ4l_30qaZ4" version="20.2.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-08-07T08:32:24.749Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="QxfJH_pjjJHgWdng9VOU" version="20.2.3" type="github" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="修改角色菜单">
     <mxGraphModel dx="1020" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -386,7 +386,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="fGGHxLbkVZLS8d-VRTRo" name="查询菜单:根据ID获取同级与上级数据">
-    <mxGraphModel dx="850" dy="433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="703" dy="358" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -404,6 +404,9 @@
         </mxCell>
         <mxCell id="cU4gic8S4-3qTU4JZw-r-4" value="遍历id : ids" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="111" y="315" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Xxd7pqtIsW_n06vHrc7B-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cU4gic8S4-3qTU4JZw-r-6" target="Xxd7pqtIsW_n06vHrc7B-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cU4gic8S4-3qTU4JZw-r-6" value="根据id找到该菜单实体menuDto" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="111" y="532" width="180" height="60" as="geometry" />
@@ -473,14 +476,20 @@
         <mxCell id="Xxd7pqtIsW_n06vHrc7B-5" value="传入父menuDto与menus&lt;br&gt;递归" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="380" y="960" width="180" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Xxd7pqtIsW_n06vHrc7B-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Xxd7pqtIsW_n06vHrc7B-12" target="Xxd7pqtIsW_n06vHrc7B-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Xxd7pqtIsW_n06vHrc7B-12" value="每一个id返回一个ArrayList&lt;br&gt;存放了包含该菜单同层直到根菜单的所有菜单" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="50" y="960" width="180" height="60" as="geometry" />
+          <mxGeometry x="111" y="960" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Xxd7pqtIsW_n06vHrc7B-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Xxd7pqtIsW_n06vHrc7B-13" target="Xxd7pqtIsW_n06vHrc7B-14">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Xxd7pqtIsW_n06vHrc7B-13" value="将所有的ArrayList存入Set&lt;br&gt;将Set转为List" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="50" y="1060" width="180" height="60" as="geometry" />
+          <mxGeometry x="111" y="1060" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Xxd7pqtIsW_n06vHrc7B-14" value="将最终的List中的菜单建树" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="50" y="1169" width="180" height="60" as="geometry" />
+          <mxGeometry x="111" y="1169" width="180" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
