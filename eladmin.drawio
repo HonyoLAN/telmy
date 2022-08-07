@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-07T08:37:57.331Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="TDlJ78JQp3vcITedOkIP" version="20.2.3" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-08-07T08:58:50.534Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="_VMu0Ox84Ggx0oRAYp38" version="20.2.3" type="github" pages="7">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="修改角色菜单">
     <mxGraphModel dx="1020" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -495,10 +495,25 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xqh55OPaC9APtrVoOu5X" name="新增菜单">
-    <mxGraphModel dx="1020" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="850" dy="433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ru_TpKnk7RJhgwUAjnYI-1" value="新建菜单传入的参数不能有ID" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ru_TpKnk7RJhgwUAjnYI-2" value="新建菜单" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ru_TpKnk7RJhgwUAjnYI-3" value="新建菜单传入的参数不能有ID" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="180" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ru_TpKnk7RJhgwUAjnYI-4" value="新建Menu&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="400" y="180" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ru_TpKnk7RJhgwUAjnYI-5" value="验证菜单标题是否已存在？" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="400" y="290" width="170" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
