@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-02-18T13:17:41.501Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="lCY-xuxiHyKBN-hl3VK7" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-18T13:19:34.723Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="leLrhatUpGTxto205nda" version="20.8.20" type="github">
   <diagram name="第 1 页" id="ydQOMh6CgHXK55kUkNio">
-    <mxGraphModel dx="733" dy="377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="352" dy="181" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="8b9J1E50-aUDLi-hy1Nw-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8b9J1E50-aUDLi-hy1Nw-1" target="8b9J1E50-aUDLi-hy1Nw-3">
+        <mxCell id="8b9J1E50-aUDLi-hy1Nw-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8b9J1E50-aUDLi-hy1Nw-1" target="8b9J1E50-aUDLi-hy1Nw-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8b9J1E50-aUDLi-hy1Nw-1" value="nodeA=headA,&lt;br&gt;nodeB=headB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="100" width="120" height="60" as="geometry" />
+          <mxGeometry x="180" y="23" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8b9J1E50-aUDLi-hy1Nw-2" value="headA,headB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="430" width="120" height="60" as="geometry" />
@@ -20,13 +20,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8b9J1E50-aUDLi-hy1Nw-3" value="headA到达尾节点？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="200" width="180" height="80" as="geometry" />
+          <mxGeometry x="150" y="212" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8b9J1E50-aUDLi-hy1Nw-5" value="headB到达尾节点？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="320" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8b9J1E50-aUDLi-hy1Nw-6" value="headA从headB开始遍历" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="385" y="210" width="120" height="60" as="geometry" />
+          <mxGeometry x="385" y="222" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8b9J1E50-aUDLi-hy1Nw-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8b9J1E50-aUDLi-hy1Nw-9" target="8b9J1E50-aUDLi-hy1Nw-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8b9J1E50-aUDLi-hy1Nw-9" value="nodeA往后遍历&lt;br&gt;nodeB往后遍历" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="122" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
